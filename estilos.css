@@ -1,0 +1,109 @@
+body {
+    font-family: Ubuntu;
+    font-size: 13pt;
+}
+
+.footer {
+    background-color: #2E948A;        
+}
+.footer img.logo {
+    width: 200px;
+}
+.navbar, .navbar .container {
+    background-color: #2E948A;            
+}
+
+.navbar .nav-link {
+    color: #FFF;
+}
+
+.card-text {
+    font-size: 10pt;
+}
+
+.btn-cta-principal, .btn-cta-principal:visited {
+    border-radius: 30px;
+    border: 2px solid deeppink;
+    background-color: white;
+    color: deeppink;    
+    font-size: 12pt;       
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.btn-cta-principal:hover, .btn-cta-principal:active {
+    border-radius: 30px;
+    border: 2px solid deeppink;
+    background-color: deeppink;
+    color: white;    
+    font-size: 12pt;    
+    padding-left: 1rem;
+    padding-right: 1rem;   
+}
+
+
+.btn-cta-secundario {
+    border-radius: 30px;    
+    background-color: deeppink;
+    color: white;    
+    font-size: 10pt;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.btn-cta-secundario:hover {
+    border-radius: 30px;    
+    border:1px solid deeppink;
+    background-color: transparent;       
+    font-size: 10pt;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.display-4 {
+    color: deeppink;
+    font-weight: 600;
+}
+
+.btn-cta-footer, .btn-cta-footer:visited {
+    border-radius: 30px;
+    border: 2px solid white;
+    background-color: #2E948A;
+    color: white;    
+    font-size: 12pt;       
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.btn-cta-footer:hover, .btn-cta-footer:active {
+    border-radius: 30px;
+    border: 2px solid white;
+    background-color: white;
+    color: black;    
+    font-size: 12pt;    
+    padding-left: 2rem;
+    padding-right: 2rem;   
+}
+
+.footer a.link-footer, .footer a.link-footer:visited {
+    text-decoration: none;
+    color: white;
+    line-height: 12pt;
+}
+.footer a.link-footer, .footer a.link-footer:visited {
+    text-decoration: none;
+    color: white;
+    line-height: 12pt;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+display: flex;
+flex-flow: column;
+flex-basis: content;
+justify-content: space-evenly;
+*/
