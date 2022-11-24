@@ -3,6 +3,16 @@ body {
     font-size: 13pt;
 }
 
+h2, h5 {
+    color: deeppink;    
+    font-weight: 600; 
+}
+
+p.subtitulo {
+    color: #2E948A;    
+    font-weight: 600; 
+}
+
 .footer {
     background-color: #2E948A;        
 }
@@ -60,6 +70,24 @@ body {
     padding-right: 1rem;
 }
 
+.btn-comecar {
+    border-radius: 30px;    
+    background-color: #2E948A;
+    color: white;    
+    font-size: 10pt;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.btn-comecar:hover {
+    border-radius: 30px;    
+    border:1px solid #2E948A;
+    background-color: transparent;       
+    font-size: 10pt;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 .display-4 {
     color: deeppink;
     font-weight: 600;
@@ -101,9 +129,22 @@ body {
     flex-direction: column;
 }
 
-/*
-display: flex;
-flex-flow: column;
-flex-basis: content;
-justify-content: space-evenly;
-*/
+section.itens {
+    background-color: #F7F7F7;
+    /*padding-top: 20px;*/
+}
+
+section.itens .card {
+    border:none;
+    background-color: transparent;
+    max-width: 250px;
+}
+
+section.itens .card-img-top {
+    max-height: 200px;
+}
+
+section.itens .card h6 {
+    font-weight: 700;
+    color: deeppink;
+}
